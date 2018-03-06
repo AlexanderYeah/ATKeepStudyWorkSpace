@@ -2,6 +2,7 @@
 ## 一 基本了解  
 ### KVO : (Key - Value - Observer) 键值观察者,是观察者设计模式的一种具体实现 
 ### KVO触发机制:一个对象(观察者),检测另一个对象(被观察者)的某属性是否发生变化,若被监测的属性发生了更改,会触发观察者的一个方法(方法名固定,类似代理方法)  
+![demo](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/tree/master/code/kvo_demo) 
 
 使用步骤：
 
