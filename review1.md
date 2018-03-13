@@ -64,6 +64,37 @@ NSStringFromSelector(@selector*(setName:));
 3. 每一个getter 方法负责各自的实例化处理，降低代码的耦合性。
 
 
+## 五 如何访问并且修改一个类的私有属性
+1. 一种是通过KVC获取  
+
+2. 一种是通过runtime访问并修改私有属性  
+
+```  
+	// Person 类内部有两个私有属性 name 和 sex
+	
+	Person *p = [Person new];
+	
+	// 记录person类的私有属性的数量
+	unsigned int count = 0;
+	// IVar 是 runtime 声明的一个宏
+	Ivar *members  = class_copyIvarList([Person class], &count);
+	
+	for (int i = 0; i < count ; i ++) {
+		Ivar ivar = members[i];
+		// 取得属性名并转成字符串类型
+		const char *memberName = ivar_getName(ivar);
+		// 打印出每一个属性的名字
+		NSLog(@"%s",memberName);
+		// 修改属性的名字
+		Ivar name = members[0];
+		object_setIvar(p, name, @"alex");
+		
+	}
+	
+	
+	NSLog(@"%@",[p valueForKey:@"name"]);  
+	
+```
 
 
 
