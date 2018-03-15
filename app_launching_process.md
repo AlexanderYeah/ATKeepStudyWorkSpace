@@ -21,5 +21,7 @@ UIApplication 对象是应用程序的象征，每一个应用都有自己的UIA
 * openURL: 方法  打电话 发邮件  发短信
 * 判断程序的运行状态等等
 
+![](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/img_source/app_start_process.png)
+
 
 
