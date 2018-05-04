@@ -36,6 +36,8 @@ SYN：同步标志 同步序列编号（Synchronize Sequence Numbers）
 FIN：结束标志  
 
 
+![1](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/img_source/tcp_handshake.png)
+
 
 * 第一次握手： 建立连接。客户端发送连接请求报文段，客户打算连接的服务器的端口，将SYN 位置为1，Seq 为 X，客户端进入到SYN_SEND 状态，等待服务器的确认。
 
