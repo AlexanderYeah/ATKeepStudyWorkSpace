@@ -17,7 +17,6 @@
 没有指明nonatomic，因此就是atomic原子操作，会影响性能。该属性使用了同步锁，会在创建时生成一些额外的代码用于编写多线程程序，这会带来性能问题，通过声明nonatomic可以节省这些不必要的额外开销，因为就算使用了automic也不能保证绝对的线程安全，对于要绝对保证线程安全的操作，我们还需要使用更加高级的方式来处理，笔触NSSpinLock 或 @syncronized等
 由于这里使用的是copy，所以得到的实际是NSArray类型，它是不可变的，若在使用中使用了增删改方法会crash；
 
-作者：奕十八
-链接：https://www.jianshu.com/p/6795714b7569
-來源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+##3 CoreFoundation 框架 
+在iOS 开发过程中，绝大多数使用UIKit 和 Foundation 框架可以实现大部分的开发，有时候需要使用底层框架，底层框架通常以Core 开头，比如Core Text，Core Graphics 都是以Core Foundation 为基础的C语言API.
+
