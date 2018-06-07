@@ -22,6 +22,9 @@ Lifelong learning is a process that continues throughout one's lifetime,keep stu
 18 RSA 理解 ----->[RSA](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/RSA.md)   
 19 函数递归调用自己 内存泄露 程序崩溃----->[递归调用自己](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%86%85%E5%AD%981.md)   
 19 runtime----->[runtime](https://github.com/AlexanderYeah/SKRuntimeWorkSpace/blob/master/README.md)     
-20 block 为什么要进行copy 操作---->[block_copy](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/block_copy.md)   
+20 block 为什么要进行copy 操作---->[block_copy](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/block_copy.md)  
+21 内存泄漏的检测方式---->[内存泄漏检测](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B21.md)    
+22 内存泄漏的发生场景---->[内存泄漏发生场景](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B22.md)  
+
 
 
