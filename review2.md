@@ -20,3 +20,9 @@
 ##3 CoreFoundation 框架 
 在iOS 开发过程中，绝大多数使用UIKit 和 Foundation 框架可以实现大部分的开发，有时候需要使用底层框架，底层框架通常以Core 开头，比如Core Text，Core Graphics 都是以Core Foundation 为基础的C语言API.
 
+## 3  pod install 和 pod update 的区别
+
+* install 并不是第一次创建 podfile 时运行一次，后面就不再使用了。install 命令不仅在初始时使用，在新增或删除 repo 时也需要运行。每次添加或删除 repo 后应该执行 install 命令，这样其它的 repo 不会更新。
+
+* update 仅仅在只需更新某一个 repo 或所有时才使用。每次执行 install 时，会将每个 repo 的版本信息写入到 podfile.lock，已存在于 podfile.lock 的 repo 不会被更新只会下载指定版本，不在 podfile.lock 中的 repo 将会搜索与 podfile 里面对应 repo 匹配的版本。即使某个 repo 指定了版本，如 pod 'A', '1.0.0'，最好也是不要使用 update，因为 repo A 可能有依赖，如果此时使用 update 会更新其依赖。
+pod update不会去Podfile.lock查看指定的AFNetworking版本,直接更新到最新版本
