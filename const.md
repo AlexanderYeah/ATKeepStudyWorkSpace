@@ -35,3 +35,10 @@
 	*q = 6; // 此时再去修改*q的值 就会报错 Read-only variable is not assignable
 	NSLog(@"%d",c);
 	
+	int * const z; // p 只读   *p 可以修改
+	int const *z1;  // z1 可修改  *z1 只读
+	const int *z2;  // z2 可修改  *z2 只读
+	const int * const z3; // z3 只读 *z3 只读
+	int const * const z4 //z4 只读 *z4 只读
+	
+	
