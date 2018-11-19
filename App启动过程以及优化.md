@@ -14,6 +14,9 @@
 
 可以查看对应的输出信息
 
+![avatar](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/img_source/App%E5%90%AF%E5%8A%A8%E4%BC%98%E5%8C%961.png)
+ 
+
 ### 
 
 ## 启动的两个阶段
@@ -33,7 +36,8 @@
 
 #### 我们把 `pre-main`阶段称为 `t1`，`main()`阶段一直到**首个页面加载完成**称为 `t2`
 
-
+![avatar](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/img_source/App%E5%90%AF%E5%8A%A8%E4%BC%98%E5%8C%962.png)
+ 
 
 ### 启动分析
 
