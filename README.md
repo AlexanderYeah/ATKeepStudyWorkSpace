@@ -26,8 +26,8 @@ Lifelong learning is a process that continues throughout one's lifetime,keep stu
 21 内存泄漏的检测方式---->[内存泄漏检测](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B21.md)    
 22 内存泄漏的发生场景---->[内存泄漏发生场景](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B22.md)    
 23 底层讲解1---->[底层讲解1](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%BA%95%E5%B1%82%E8%AE%B2%E8%A7%A31.md)   
-24 const的使用---->[const](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/const.md) 
-
+24 const的使用---->[const](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/const.md)   
+25 static的使用---->[static](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/static.md) 
 
 
 
