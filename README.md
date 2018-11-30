@@ -28,7 +28,10 @@ Lifelong learning is a process that continues throughout one's lifetime,keep stu
 23 底层讲解1---->[底层讲解1](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%BA%95%E5%B1%82%E8%AE%B2%E8%A7%A31.md)   
 24 const的使用---->[const](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/const.md)   
 25 static的使用---->[static](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/static.md)   
-26 extern的使用---->[extern](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/extern.md) 
+26 extern的使用---->[extern](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/extern.md)   
+27 位字节字符---->[bit byte](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%AD%97%E8%8A%82%E4%B8%8E%E5%AD%97%E7%AC%A6.md) 
+
+
 
 
 
