@@ -29,7 +29,9 @@ Lifelong learning is a process that continues throughout one's lifetime,keep stu
 24 const的使用---->[const](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/const.md)   
 25 static的使用---->[static](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/static.md)   
 26 extern的使用---->[extern](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/extern.md)   
-27 位字节字符---->[bit byte](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%AD%97%E8%8A%82%E4%B8%8E%E5%AD%97%E7%AC%A6.md) 
+27 位字节字符---->[bit byte](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E5%AD%97%E8%8A%82%E4%B8%8E%E5%AD%97%E7%AC%A6.md)   
+28 为什么在主线程中刷新UI---->[主线程中刷新UI](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BF%85%E9%A1%BB%E5%9C%A8%E4%B8%BB%E7%BA%BF%E7%A8%8B%E4%B8%AD%E5%8E%BB%E5%88%B7%E6%96%B0UI.md)   
+29 iOS中关于arm的了解---->[iOS中关于arm的了解](https://github.com/AlexanderYeah/ATKeepStudyWorkSpace/blob/master/iOS%E4%B8%AD%E7%9A%84arm.md) 
 
 
 
