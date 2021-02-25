@@ -73,10 +73,6 @@ static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
 
 
 
-
-
-
-
 - 1 在ARC 环境下,Block 被引用的时候，会被Copy 一次，由栈区Copy 到堆区域
 
 - 2 在Block 被Copy的时候,Block 内部的变量也会被copy 一份到堆上面
