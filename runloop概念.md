@@ -1,6 +1,7 @@
 # 一 RunLoop 概念
 运行循环，程序的运行全依赖于RunLoop，程序启动，开启一个主线程，对应的默认开启一个RunLoop，来保证程序的运行。
 主要负责：
+
 # 二 作用
 * 1 使程序一直运行并接受用户输入  
 * 2 决定程序在何时处理一些Event
@@ -40,10 +41,6 @@ Timer和Source也是一些变量，需要占用一部分存储空间，所以要
 那么什么时候释放，怎么释放呢？
 RunLoop内部有一个自动释放池，当RunLoop开启时，就会自动创建一个自动释放池，当RunLoop在休息之前会释放掉自动释放池的东西，然后重新创建一个新的空的自动释放池，当RunLoop被唤醒重新开始跑圈时，Timer,Source等新的事件就会放到新的自动释放池中，当RunLoop退出的时候也会被释放。
 注意：只有主线程的RunLoop会默认启动。也就意味着会自动创建自动释放池，子线程需要在线程调度方法中手动添加自动释放池。
-
-
-
-
 
 NSRunLoop 是对 CFRunLoop 的封装。
 CFRunLoopMode 包含 CFRunLoopSource CFRunLoopTimer CFRunLoopObserver 

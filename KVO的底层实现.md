@@ -135,10 +135,7 @@
     
     NSLog(@"oldValue--%@",oldVal);
     NSLog(@"newValue--%@",newVal);
-    
-    
-    //
- 
+    // 
 }
 
 // 触发方法
